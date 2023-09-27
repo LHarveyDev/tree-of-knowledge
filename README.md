@@ -14,35 +14,37 @@ This is my website created for my Milestone Project 2 submission as part of my D
 
         1. As a First Time Visitor, I want to be engaged visually and educated.
         2. As a First Time Visitor, I want the purpose and rules of the quiz explained to me.
-        3. As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to locate the organisations social media links to see their followings on social media to determine how trusted and known they are.
 
   - #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to retake the quiz and try to improve my score.
         2. As a Returning Visitor, I want to learn something new.
-        3. As a Returning Visitor, I want to follow the social media links to find out the latest news..
+        3. As a Returning Visitor, I want to follow the social media links to find out the latest news.
 
   - #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any newly added quizzes.
+        2. As a Frequent User, I want to check to see if there are any new social media posts.
 
 - ### Design
   - #### Colour Scheme
     - 
   - #### Typography
-    - 
+    - I have chosen google fonts 'Amatic' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to younger users and adults.
   - #### Imagery
-    - 
+    - The images I have chosen for the quiz questions are simple, clear and syylized. They just display the individual leaf and are not cluttered by background.
 
 - ### Wireframes
 
   - Home Page Wireframe - [View]()
-
+  - Question One Wireframe - [View](documentation/question1.jpg)
+  - Question Two Wireframe - [View](documentation/question2.jpg)
+  - Question Three Wireframe - [View](documentation/question3.jpg)
+  - Question Four Wireframe - [View](documentation/question4.jpg)
+  - Question Five Wireframe - [View](documentation/question5.jpg)
+  - Results Page Wireframe - [View](documentation/results.jpg)
   - Mobile Wireframe - [View]()
-
-  - Contact Us Page Wireframe - [View]()
 
 ## Features
 
@@ -65,9 +67,9 @@ This is my website created for my Milestone Project 2 submission as part of my D
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the '' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Amatic' font into the style.css file which is used throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
@@ -206,7 +208,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- The full-screen hero image code came from here [Pixel](https://stackoverflow.com)
+- The Love Math walkthrough from Code Institute was used to create the basic layout for my quiz page and the 'score area' for recording the correct and incorrect answers and displaying to the player. I adapted the code to fit my needs.
 
 - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
