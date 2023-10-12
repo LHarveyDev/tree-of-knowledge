@@ -18,44 +18,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Ubuntu:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Autour+One&family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <script
       src="https://kit.fontawesome.com/c454350385.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="assets/css/style.css"
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <i class="fa-brands fa-pagelines fa-2xl" style="color: #3f7e0c"></i>
     <h1 class="heading">Tree of Knowledge</h1>
 
-    <div class="game-area">
-      <div class="question-area">
+    <section id="home-screen">
+      <img
+        src="assets/images/tree.jpg"
+        id="main-image"
+        alt="silhouette of tree"
+      />
+
+      <!-- How to Play  -->
+
+      <div id="instructions">
+        <h2>How to Play</h2>
         <p>
           Test how much you know about trees in our fun interactive quiz!<br />For
           each question we will show you a leaf and you select which tree it
           came from choosing from the options given
         </p>
-        <h2>Question 1/5:</h2>
       </div>
-    <div class="row">
-        <div class="col image-area">
-            <img src="assets/images/oak.jpg" alt="Long leaf with lobed edges">
-        </div>
-        <div class="col answer-area">
-            <button type="button" class="btn btn-default btn-block border-dark">Oak</button>
-            <button type="button" class="btn btn-default btn-block border-dark">Ash</button>
-            <button type="button" class="btn btn-default btn-block border-dark">Sycamore</button>
-            <button type="button" class="btn btn-default btn-block border-dark">Beech</button>
-        </div>
-    </div>
 
-    <div class="score-area">
-      <p class="scores">Correct Answers <span id="score">0</span></p>
-      <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
+      <!-- Start button  -->
+
+      <div id="start-button-container">
+        <input
+          type="submit"
+          id="start-game-button"
+          value="Start Game"
+          aria-label="Start game button"
+          onclick="showGameScreen()"
+        />
+      </div>
+    </section>
+
+    <script src="assets/js/quiz-questions.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

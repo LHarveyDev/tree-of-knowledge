@@ -16,8 +16,13 @@ p {
 
 /* Images  */
 
-.image-area {
-    border-style: solid;
+#main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 /* Buttons  */
+
+#start-game-button {}

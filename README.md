@@ -206,7 +206,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - The Love Math walkthrough from Code Institute was used to create the basic layout for my quiz page and the 'score area' for recording the correct and incorrect answers and displaying to the player. I adapted the code to fit my needs.
 
+- [Coding Ninjas](https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code): I used this tutorial to help me work out what functions i needed to create to run my quiz.
+
 - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+- [Stack Overflow](https://stackoverflow.com/questions/64563792/how-to-have-images-in-a-javascript-quiz): This helped me to work out how to design a quiz where the question is an image.
+
+- [Stack Overflow](https://stackoverflow.com/questions/37252041/storing-quiz-questions-in-array-of-objects): This question explained how to simplify my questions and answers into an array.
 
 ### Content
 
