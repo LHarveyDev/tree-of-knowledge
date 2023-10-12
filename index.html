@@ -31,6 +31,8 @@
   <body>
     <h1 class="heading">Tree of Knowledge</h1>
 
+    <!-- Home Screen -->
+
     <section id="home-screen">
       <img
         src="assets/images/tree.jpg"
@@ -60,6 +62,53 @@
           onclick="showGameScreen()"
         />
       </div>
+    </section>
+
+    <!-- Play Screen -->
+
+    <section id="play-screen">
+      <div id="leaf-question-answers-container">
+        <div id="leaf-image-container">
+          <img id="leaf-image" />
+        </div>
+
+        <div id="question-container">
+          <h2 id="question-text">Question loading...</h2>
+        </div>
+
+        <div id="answers-container">
+          <div class="answer-option" id="answer-option-1-container">
+            <button
+              id="answer-1-text"
+              onclick="answer1Selected()"
+              aria-label="First answer option"
+            ></button>
+          </div>
+          <div class="answer-option" id="answer-option-2-container">
+            <button
+              id="answer-2-text"
+              onclick="answer2Selected()"
+              aria-label="Second answer option"
+            ></button>
+          </div>
+          <div class="answer-option" id="answer-option-3-container">
+            <button
+              id="answer-3-text"
+              onclick="answer3Selected()"
+              aria-label="Third answer option"
+            ></button>
+          </div>
+          <div class="answer-option" id="answer-option-4-container">
+            <button
+              id="answer-4-text"
+              onclick="answer4Selected()"
+              aria-label="Fourth answer option"
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress and score counter -->
     </section>
 
     <script src="assets/js/quiz-questions.js"></script>
