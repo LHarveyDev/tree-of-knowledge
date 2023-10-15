@@ -99,7 +99,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ![accessibility](/documentation/lighthouse_scores.jpg "Lighthouse")
 
-
 ### Testing User Stories from User Experience (UX) Section
 
 - #### First Time Visitor Goals
@@ -144,7 +143,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
      1. At the bottom of every page I would like to add a link to subscribe to the organisations newsletter, this would open in a new window.
-
 
 ### Further Testing
 
