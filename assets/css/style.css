@@ -10,7 +10,7 @@ body {
 
 .btn {
     font-family: 'Barlow', sans-serif;
-    background: rgb(216, 167, 5);
+    background: #D5AC4E;
     color: black;
     font-weight: 500;
     width: 60%;
@@ -24,7 +24,7 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-    background: rgb(97, 92, 84);
+    background: #8b6220;
 }
 
 .btn:disabled {
@@ -47,11 +47,11 @@ body {
 }
 
 .correct {
-    background: green;
+    background: rgb(32, 112, 32);
 }
 
 .incorrect {
-    background: red;
+    background: #720E07;
 }
 
 /* Images */
