@@ -1,10 +1,10 @@
 # Tree of Knowledge
 
-[View the live project here.](https://lharveydev.github.io/tree-of-knowledge/).
+[View the live project here.](https://lharveydev.github.io/tree-of-knowledge/)
 
-![responsiveness] "Am I Responsive" (https://ui.dev/amiresponsive?url=https://lharveydev.github.io/tree-of-knowledge/).
+![responsiveness](/documentation/amiresponsive.png/)
 
-This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here] (https://lharveydev.github.io/tree-of-knowledge/).
+This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here](https://lharveydev.github.io/tree-of-knowledge/)
 
 ## User Experience (UX)
 
@@ -30,25 +30,25 @@ This is my website created for my Milestone Project 2 submission as part of my D
 - ### Design
 
 - #### Colour Scheme
+- [Coolers](https://coolers.co/) was used to pick a harmonious colour palette that reflects the colours found in nature ![colour palette](/documentation/color_palette.png)
 
 - #### Typography
 
-  - I have chosen google fonts 'Amatic' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to younger users and adults.
+  - I have chosen google fonts 'AmaticSC' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to both younger users and adults.
 
 - #### Imagery
 
   - The images I have chosen for the quiz questions are simple, clear and syylized. They just display the individual leaf and are not cluttered by background.
+  - The main image of the tree in silhouette came from [Adobe Stock](https://stock.adobe.com/uk/images/tree-with-roots/442695733?prev_url=detail) It is titled 'Tree with Roots' credit to the creator Chanthima Saenubon. I chose this image for its graphic illustrative qualities which I felt were striking. The image also complimented the wild, natural theme to my webpage.
 
 - ### Wireframes
 
-  - Home Page Wireframe - [View]()
   - Question One Wireframe - [View](documentation/question1.jpg)
   - Question Two Wireframe - [View](documentation/question2.jpg)
   - Question Three Wireframe - [View](documentation/question3.jpg)
   - Question Four Wireframe - [View](documentation/question4.jpg)
   - Question Five Wireframe - [View](documentation/question5.jpg)
   - Results Page Wireframe - [View](documentation/results.jpg)
-  - Mobile Wireframe - [View]()
 
 - ## Features
 
@@ -80,8 +80,8 @@ This is my website created for my Milestone Project 2 submission as part of my D
    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
-1. [Logo:](https://logo.com/)
-   - Logo was used to create the logo.
+1. [Favicon:](https://favicon.io/)
+   - Favicon.io was used to create the favicon on the webpage tab.
 1. [Balsamiq:](https://balsamiq.com/)
    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -89,8 +89,8 @@ This is my website created for my Milestone Project 2 submission as part of my D
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](documentation/html_validation.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](documentation/css_validation.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -204,11 +204,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- The Love Math walkthrough from Code Institute was used to create the basic layout for my quiz page and the 'score area' for recording the correct and incorrect answers and displaying to the player. I adapted the code to fit my needs.
+- The Love Math walkthrough from Code Institute was used to create the basic layout for my quiz page. I adapted the code to fit my needs.
 
 - [Coding Ninjas](https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code): I used this tutorial to help me work out what functions i needed to create to run my quiz.
 
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video tutorial explained the functions needed for a simple multiple choice quiz and also taught me hot to change the colours of the correct/incorrect answers when selected.
 
 - [Stack Overflow](https://stackoverflow.com/questions/64563792/how-to-have-images-in-a-javascript-quiz): This helped me to work out how to design a quiz where the question is an image.
 
