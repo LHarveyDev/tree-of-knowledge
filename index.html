@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tree of Knowledge</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -18,100 +16,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Autour+One&family=Ubuntu:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/c454350385.js"
-      crossorigin="anonymous"
-    ></script>
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Autour+One&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c454350385.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
-    <h1 class="heading">Tree of Knowledge</h1>
+<body>
+    <section id="home-page">
+        <h1 #="heading">Tree of Knowledge</h1>
 
-    <!-- Home Screen -->
+        <img src="assets/images/tree.jpg" id="main-image" alt="silhouette of tree" />
 
-    <section id="home-screen">
-      <img
-        src="assets/images/tree.jpg"
-        id="main-image"
-        alt="silhouette of tree"
-      />
+        <!-- How to Play  -->
 
-      <!-- How to Play  -->
+        <div id="instructions">
+            <p>
+                Test how much you know about trees in our fun interactive quiz!<br />For
+                each question we will show you a leaf and you select which tree it
+                came from choosing from the options given
+            </p>
+        </div>
 
-      <div id="instructions">
-        <h2>How to Play</h2>
-        <p>
-          Test how much you know about trees in our fun interactive quiz!<br />For
-          each question we will show you a leaf and you select which tree it
-          came from choosing from the options given
-        </p>
-      </div>
+        <!-- Play Screen -->
 
-      <!-- Start button  -->
+        <div id="leaf-question-answers-container">
+            <div id="leaf-image-container">
+                <img id="leaf-image">
+            </div>
 
-      <div id="start-button-container">
-        <input
-          type="submit"
-          id="start-game-button"
-          value="Start Game"
-          aria-label="Start game button"
-          onclick="showGameScreen()"
-        />
-      </div>
+            <div id="question-container">
+                <h2 id="question">Question here</h2>
+            </div>
+
+            <div id="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+
+            <button id="next-btn">Next</button>
+        </div>
     </section>
 
-    <!-- Play Screen -->
-
-    <section id="play-screen">
-      <div id="leaf-question-answers-container">
-        <div id="leaf-image-container">
-          <img id="leaf-image" />
-        </div>
-
-        <div id="question-container">
-          <h2 id="question-text">Question loading...</h2>
-        </div>
-
-        <div id="answers-container">
-          <div class="answer-option" id="answer-option-1-container">
-            <button
-              id="answer-1-text"
-              onclick="answer1Selected()"
-              aria-label="First answer option"
-            ></button>
-          </div>
-          <div class="answer-option" id="answer-option-2-container">
-            <button
-              id="answer-2-text"
-              onclick="answer2Selected()"
-              aria-label="Second answer option"
-            ></button>
-          </div>
-          <div class="answer-option" id="answer-option-3-container">
-            <button
-              id="answer-3-text"
-              onclick="answer3Selected()"
-              aria-label="Third answer option"
-            ></button>
-          </div>
-          <div class="answer-option" id="answer-option-4-container">
-            <button
-              id="answer-4-text"
-              onclick="answer4Selected()"
-              aria-label="Fourth answer option"
-            ></button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Progress and score counter -->
-    </section>
-
-    <script src="assets/js/quiz-questions.js"></script>
     <script src="assets/js/script.js"></script>
-  </body>
+</body>
+
 </html>

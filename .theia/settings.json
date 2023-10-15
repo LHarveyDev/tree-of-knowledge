@@ -1,5 +1,7 @@
 {
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "prettier.bracketSameLine": false,
+    "prettier.enable": false
 }

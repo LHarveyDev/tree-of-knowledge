@@ -1,28 +1,69 @@
-/*  Headings  */
-
-h1 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 150px;
-    font-weight: 900;
+body {
+    font-family: 'Amatic SC', sans-serif;
+    background: white;
+    margin: 0 auto;
+    max-width: 700px;
     text-align: center;
 }
 
-h2 {}
+/* Buttons */
 
-p {
+.btn {
+    font-family: 'Barlow', sans-serif;
+    background: rgb(216, 167, 5);
+    color: black;
+    font-weight: 500;
+    width: 60%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
     text-align: center;
-    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-/* Images  (Centred using tutorial from https: //www.w3schools.com/howto/howto_css_image_center.asp)*/
+.btn:hover:not([disabled]) {
+    background: rgb(97, 92, 84);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    font-family: 'Barlow', sans-serif;
+    background: rgb(219, 218, 212);
+    color: black;
+    font-weight: 500;
+    width: 40%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+/* Images */
 
 #main-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
 }
 
-/* Buttons  */
-
-#start-game-button {}
+#leaf-image {
+    height: 60%;
+    width: 40%;
+}
