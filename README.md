@@ -210,6 +210,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Stack Overflow](https://stackoverflow.com/questions/37252041/storing-quiz-questions-in-array-of-objects): This question explained how to simplify my questions and answers into an array.
 
+- [Freecoder Camp](https://www.freecodecamp.org/news/css-responsive-image-tutorial/#:~:text=To%20make%20an%20image%20responsive>,than%20absolute%20ones%20like%20pixels): Useful article on making sure images are responsive on all devices.
+
 ### Content
 
 - All content was written by the developer.

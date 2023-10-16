@@ -23,7 +23,9 @@
 </head>
 
 <body>
-    <section id="home-page">
+    <!-- Start Screen -->
+
+    <section class="start-screen">
         <h1>Tree of Knowledge</h1>
 
         <img src="assets/images/tree.jpg" id="main-image" alt="silhouette of tree" />
@@ -37,28 +39,44 @@
                 came from choosing from the options given
             </p>
         </div>
-
-        <!-- Play Screen -->
-
-        <div id="leaf-question-answers-container">
-            <div id="leaf-image-container">
-                <img id="leaf-image" src="" alt="Leaf Image">
-            </div>
-
-            <div id="question-container">
-                <h2 id="question">Question here</h2>
-            </div>
-
-            <div id="answer-buttons">
-                <button class="btn">Answer1</button>
-                <button class="btn">Answer2</button>
-                <button class="btn">Answer3</button>
-                <button class="btn">Answer4</button>
-            </div>
-
-            <button id="next-btn">Next</button>
-        </div>
     </section>
+
+    <!-- Play Screen -->
+
+    <section class="play-screen">
+
+        <div class="container">
+            <div class="row">
+                <div id="leaf-image-container" class="col-sm-6">
+                    <img id="leaf-image" src="" alt="Leaf Image">
+                </div>
+
+                <div id="question-container" class="col-sm-6">
+                    <h2 id="question">Question here</h2>
+
+                    <div id="answer-buttons">
+                        <button class="btn">Answer1</button>
+                        <button class="btn">Answer2</button>
+                        <button class="btn">Answer3</button>
+                        <button class="btn">Answer4</button>
+                    </div>
+
+                    <button id="next-btn">Next</button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>

@@ -6,6 +6,21 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/*#leaf-image-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 /* Buttons */
 
 .btn {
@@ -13,7 +28,7 @@ body {
     background: #D5AC4E;
     color: black;
     font-weight: 600;
-    width: 60%;
+    width: 100%;
     border: 1px solid #222;
     padding: 10px;
     margin: 10px 0;
@@ -64,6 +79,33 @@ body {
 }
 
 #leaf-image {
-    height: 60%;
-    width: 40%;
+    margin-top: 80px;
+}
+
+/* Social Networks*/
+
+.social-networks {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 5px;
+    padding: 2%;
+    color: grey;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 600px) {
+
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }

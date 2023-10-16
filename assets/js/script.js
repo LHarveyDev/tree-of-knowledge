@@ -54,6 +54,7 @@ const questions = [
 
 /* Defining my variables */
 
+
 const imageElement = document.getElementById("leaf-image");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -116,6 +117,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
+    imageElement.src = "assets/images/row_of_trees.jpg";
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
@@ -139,3 +141,4 @@ nextButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
