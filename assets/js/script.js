@@ -1,59 +1,4 @@
-/*  Quiz questions*/
-
-const questions = [
-    {
-        image: "assets/images/oak.jpg",
-        question: "Which tree does this leaf come from?",
-        answers: [
-            { text: "Oak", correct: true },
-            { text: "Sycamore", correct: false },
-            { text: "Pine", correct: false },
-            { text: "Cedar", correct: false },
-        ]
-    },
-    {
-        image: "assets/images/sycamore.jpg",
-        question: "Which tree does this leaf come from?",
-        answers: [
-            { text: "Beech", correct: false },
-            { text: "Sycamore", correct: true },
-            { text: "Ash", correct: false },
-            { text: "Cedar", correct: false },
-        ]
-    },
-    {
-        image: "assets/images/poplar.jpg",
-        question: "Which tree does this leaf come from?",
-        answers: [
-            { text: "Pine", correct: false },
-            { text: "Hornbeam", correct: false },
-            { text: "Poplar", correct: true },
-            { text: "Ash", correct: false },
-        ]
-    },
-    {
-        image: "assets/images/beech.jpg",
-        question: "Which tree does this leaf come from?",
-        answers: [
-            { text: "Oak", correct: false },
-            { text: "Beech", correct: true },
-            { text: "Hawthorn", correct: false },
-            { text: "Cedar", correct: false },
-        ]
-    },
-    {
-        image: "assets/images/ash.jpg",
-        question: "Which tree does this leaf come from?",
-        answers: [
-            { text: "Poplar", correct: false },
-            { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
-        ]
-    }];
-
 /* Defining my variables */
-
 
 const imageElement = document.getElementById("leaf-image");
 const questionElement = document.getElementById("question");
@@ -65,10 +10,20 @@ let score = 0;
 
 /* Functions */
 
+/* Function to shuffle an array using the Fisher-Yates algorithm */
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+    shuffleArray(questions);
     showQuestion();
 }
 
@@ -117,7 +72,6 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    imageElement.src = "assets/images/row_of_trees.jpg";
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
