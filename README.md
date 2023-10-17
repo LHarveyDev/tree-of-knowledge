@@ -2,7 +2,7 @@
 
 [View the live project here.](https://lharveydev.github.io/tree-of-knowledge/)
 
-![responsiveness](/documentation/amiresponsive.png/)
+![responsiveness](/documentation/am_i_responsive.jpg/)
 
 This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here](https://lharveydev.github.io/tree-of-knowledge/)
 
