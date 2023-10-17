@@ -77,11 +77,6 @@ function selectAnswer(e) {
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    // Get the result image element
-    const resultImage = document.getElementById("result-image");
-
-    // Set the src attribute to the URL of your image
-    resultImage.src = "tree_of_life.jpg";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }

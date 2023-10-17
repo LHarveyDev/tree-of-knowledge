@@ -57,11 +57,12 @@ p {
 }
 
 #next-btn {
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     background: rgb(219, 218, 212);
     color: black;
+    font-size: larger;
     font-weight: 800;
-    width: 40%;
+    width: 50%;
     border: 1px solid #222;
     padding: 10px;
     margin: auto;
@@ -80,9 +81,10 @@ p {
 }
 
 #start-btn {
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     background: #D5AC4E;
     color: black;
+    font-size: larger;
     font-weight: 800;
     width: 30%;
     border: 1px solid #222;
