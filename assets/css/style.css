@@ -7,7 +7,17 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey
 }
 
 p {
@@ -47,10 +57,10 @@ p {
 }
 
 #next-btn {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Gabarito', sans-serif;
     background: rgb(219, 218, 212);
     color: black;
-    font-weight: 600;
+    font-weight: 800;
     width: 40%;
     border: 1px solid #222;
     padding: 10px;
@@ -69,6 +79,21 @@ p {
     background: #720E07;
 }
 
+#start-btn {
+    font-family: 'Gabarito', sans-serif;
+    background: #D5AC4E;
+    color: black;
+    font-weight: 800;
+    width: 30%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 /* Images */
 
 #main-image {
@@ -79,7 +104,9 @@ p {
 }
 
 #leaf-image {
-    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Social Networks*/

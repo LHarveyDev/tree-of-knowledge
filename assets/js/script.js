@@ -1,5 +1,9 @@
 /* Defining my variables */
 
+const startButton = document.getElementById("start-btn");
+const startScreenSection = document.getElementById("start-screen");
+const playScreenSection = document.getElementById("play-screen");
+
 const imageElement = document.getElementById("leaf-image");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -86,6 +90,13 @@ function handleNextButton() {
     }
 }
 
+// Event Listener to hide the Start Screen and display Play Screen on click
+startButton.addEventListener("click", () => {
+    startScreenSection.style.display = "none";
+    playScreenSection.style.display = "block";
+});
+
+// Event Listener to display the next question on click
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();

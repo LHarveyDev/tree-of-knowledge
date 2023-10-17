@@ -17,7 +17,7 @@ const questions = [
         answers: [
             { text: "Beech", correct: false },
             { text: "Sycamore", correct: true },
-            { text: "Ash", correct: false },
+            { text: "Apple", correct: false },
             { text: "Cedar", correct: false },
         ]
     },
@@ -25,8 +25,8 @@ const questions = [
         image: "assets/images/poplar.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Pine", correct: false },
-            { text: "Hornbeam", correct: false },
+            { text: "Norway Spruce", correct: false },
+            { text: "Lime", correct: false },
             { text: "Poplar", correct: true },
             { text: "Ash", correct: false },
         ]
@@ -47,58 +47,58 @@ const questions = [
         answers: [
             { text: "Poplar", correct: false },
             { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
+            { text: "Pear", correct: false },
             { text: "Ash", correct: true },
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/hornbeam.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Poplar", correct: false },
-            { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
+            { text: "Willow", correct: false },
+            { text: "Scots Pine", correct: false },
+            { text: "Hornbeam", correct: true },
+            { text: "Maple", correct: false },
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/walnut.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Poplar", correct: false },
+            { text: "Walnut", correct: true },
             { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
+            { text: "Monkey Puzzle", correct: false },
+            { text: "Lime", correct: false },
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/willow.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Poplar", correct: false },
-            { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
+            { text: "Rowan", correct: false },
+            { text: "Douglas Fir", correct: false },
+            { text: "Yew", correct: false },
+            { text: "Willow", correct: true },
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/silverbirch.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Poplar", correct: false },
-            { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
+            { text: "Hazel", correct: false },
+            { text: "Elm", correct: false },
+            { text: "Silver Birch", correct: true },
+            { text: "Oak", correct: false },
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/rowan.jpg",
         question: "Which tree does this leaf come from?",
         answers: [
-            { text: "Poplar", correct: false },
-            { text: "Horse Chestnut", correct: false },
-            { text: "Redwood", correct: false },
-            { text: "Ash", correct: true },
+            { text: "Rowan", correct: true },
+            { text: "Walnut", correct: false },
+            { text: "Cedar", correct: false },
+            { text: "London Plane", correct: false },
         ]
     }];
 

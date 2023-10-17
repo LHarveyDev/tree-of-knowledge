@@ -13,11 +13,11 @@
 
     <!-- Font Awesome and Google fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Autour+One&family=Ubuntu:wght@400;500;700&display=swap"
-        rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Autour+One&family=Gabarito:wght@600;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/c454350385.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -25,8 +25,8 @@
 <body>
     <!-- Start Screen -->
 
-    <section class="start-screen">
-        <h1>Tree of Knowledge</h1>
+    <section id="start-screen">
+        <h1><a href="index.html">Tree of Knowledge</a></h1>
 
         <img src="assets/images/tree.jpg" id="main-image" alt="silhouette of tree" />
 
@@ -38,17 +38,20 @@
                 each question we will show you a leaf and you select which tree it
                 came from choosing from the options given
             </p>
+
+            <button id="start-btn">Enter the Woods</button>
         </div>
     </section>
 
     <!-- Play Screen -->
 
-    <section class="play-screen">
+    <section id="play-screen" style="display:none;">
+        <h1><a href="index.html">Tree of Knowledge</a></h1>
 
         <div class="container">
             <div class="row">
                 <div id="leaf-image-container" class="col-sm-6">
-                    <img id="leaf-image" src="" alt="Leaf Image">
+                    <img id="leaf-image" src="" alt="">
                 </div>
 
                 <div id="question-container" class="col-sm-6">
