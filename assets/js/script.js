@@ -5,6 +5,7 @@ const startScreenSection = document.getElementById("start-screen");
 const playScreenSection = document.getElementById("play-screen");
 
 const imageElement = document.getElementById("leaf-image");
+const imageContainer = document.getElementById("leaf-image-container");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -14,14 +15,7 @@ let score = 0;
 
 /* Functions */
 
-/* Function to shuffle an array using the Fisher-Yates algorithm */
-
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
+/* Function to start quiz  */
 
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -29,6 +23,15 @@ function startQuiz() {
     nextButton.innerHTML = "Next";
     shuffleArray(questions);
     showQuestion();
+}
+
+/* Function to shuffle an array using the Fisher-Yates algorithm */
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 function showQuestion() {
@@ -76,6 +79,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
+    imageElement.src = "assets/images/tree_of_life.jpg";
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
