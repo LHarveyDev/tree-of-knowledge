@@ -5,10 +5,11 @@ const startScreenSection = document.getElementById("start-screen");
 const playScreenSection = document.getElementById("play-screen");
 
 const imageElement = document.getElementById("leaf-image");
-const imageContainer = document.getElementById("leaf-image-container");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const scoreMessage = document.getElementById("score-message");
+const link = document.createElement("a");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -81,6 +82,19 @@ function showScore() {
     resetState();
     imageElement.src = "assets/images/tree_of_life.jpg";
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    if (score <= 3) {
+        scoreMessage.innerHTML = "Not bad. With a bit more research you could be an expert.<br>Why not take a look at";
+    } else if (score <= 7) {
+        scoreMessage.innerHTML = "Well done! You're well on your way to becoming an expert.<br>Why not take a look at";
+    } else {
+        scoreMessage.innerHTML = "Wow, you really know your stuff. You're a tree expert!<br>Why not take a look at";
+    }
+    link.href = "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees";
+    link.textContent = " The Woodland Trust";
+    link.target = "_blank";
+
+    scoreMessage.appendChild(link);
+
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }

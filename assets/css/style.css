@@ -31,6 +31,10 @@ p {
     width: 80%;
 }
 
+#score-message {
+    font-size: larger;
+}
+
 /* Buttons */
 
 .btn {
