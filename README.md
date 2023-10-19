@@ -53,9 +53,9 @@ This is my website created for my Milestone Project 2 submission as part of my D
 
 - ## Features
 
-  - Responsive on all device sizes
+  - Responsive on all device sizes. Checked via user feedback and the websites [Media Genesis](https://responsivedesignchecker.com/) and [Am I Responsive](https://amiresponsive.co.uk/).
 
-  - Interactive elements
+  - Interactive elements. Created using Javascript.
 
 ## Technologies Used
 
@@ -107,7 +107,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      1. Upon entering the site, the user is presented with a clean, uncluttered page. The title and main image are displayed above a set of instructions on how to play the game.
      2. The purpose of the quiz and 'how to' guide are kept concise to avoid users having to scroll through a complicated set of instructions.
      3. The user can play the game or explore the social media links at the footer of the page.
-
   ![UX](/documentation/start_screen.jpg)
 
   2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site.
@@ -115,11 +114,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      1. The site has been designed to be fluid and never to entrap the user.
      2. The title 'Tree of Knowledge' is a hyperlink that takes the user back to the start screen from wherever they are in the game.
      3. As the user submits their responses to the questions they are prompted to navigate to the next question by the 'Next' button.
-   
   ![UX](/documentation/answer_screen.jpg)
-
      4. On the results screen the user is prompted to restart the quiz by clicking on the 'Play Again' button.
-
   ![UX](/documentation/results_screen.jpg)
 
   3. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
