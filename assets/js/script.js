@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             scoreMessage.innerHTML = "Wow, you really know your stuff. You're a tree expert!<br>Why not take a look at";
         }
         link.href = "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees";
-        link.textContent = " The Woodland Trust";
+        link.textContent = " The Woodland Trust website";
         link.target = "_blank";
         scoreMessage.appendChild(link);
         nextButton.innerHTML = "Play Again";

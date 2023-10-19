@@ -31,6 +31,7 @@ p {
 }
 
 #score-message {
+    font-size: 20px;
     padding: 15px;
 }
 
@@ -110,8 +111,8 @@ p {
 
 #leaf-image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 200px;
+    object-fit: contain;
 }
 
 /* Social Networks*/
