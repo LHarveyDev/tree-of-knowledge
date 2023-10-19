@@ -28,11 +28,10 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
 }
 
 #score-message {
-    padding: 20px;
+    padding: 15px;
 }
 
 /* Buttons */
@@ -131,14 +130,4 @@ p {
     margin: 5px;
     padding: 2%;
     color: grey;
-}
-
-/* Media Queries*/
-
-@media screen and (max-width: 600px) {
-
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
 }
