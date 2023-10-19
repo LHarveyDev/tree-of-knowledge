@@ -212,6 +212,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Freecoder Camp](https://www.freecodecamp.org/news/css-responsive-image-tutorial/#:~:text=To%20make%20an%20image%20responsive>,than%20absolute%20ones%20like%20pixels): Useful article on making sure images are responsive on all devices.
 
+- Tutor support was used to replace the question image with another image on my results page
+
 ### Content
 
 - [Woodland Trust](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/): A really useful resource for setting my quiz questions and answers.

@@ -32,7 +32,7 @@ p {
 }
 
 #score-message {
-    font-size: larger;
+    padding: 20px;
 }
 
 /* Buttons */
