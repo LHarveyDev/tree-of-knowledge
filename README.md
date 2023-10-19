@@ -72,21 +72,19 @@ This is my website created for my Milestone Project 2 submission as part of my D
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-   - Google fonts were used to import the 'Amatic' font into the style.css file which is used throughout the project.
+   - Google fonts were used to embed the fonts into the head of my index.html. I chose AmaticSC, Autour1 and Gabarito to use throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-   - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-   - GitHub is used to store the projects code after being pushed from Git.
 1. [I Love IMG:](https://www.iloveimg.com/resize-image)
-   - I Love IMG used to crop and resize all images to enhance performance and increase Lighthouse scores during testing.
+   - I Love IMG was used to crop and resize all images to enhance performance and increase Lighthouse scores during testing.
 1. [Favicon:](https://favicon.io/)
    - Favicon.io was used to create the favicon on the webpage tab.
 1. [Balsamiq:](https://balsamiq.com/)
    - Balsamiq was used to create the [wireframes](https://github.com/LHarveyDev/tree-of-knowledge/tree/main/documentation) during the design process.
+1. [Git](https://git-scm.com/)
+   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+   - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
 
@@ -98,7 +96,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Lighthouse Scores performed in Incognito mode.
 
-  ![accessibility](/documentation/lighthouse_scores.jpg "Lighthouse")
+  ![accessibility](/documentation/lighthouse_scores.jpg)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -110,11 +108,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
      2. The purpose of the quiz and 'how to' guide are kept concise to avoid users having to scroll through a complicated set of instructions.
      3. The user can play the game or explore the social media links at the footer of the page.
 
+  ![UX](/documentation/start_screen.jpg)
+
   2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site.
 
      1. The site has been designed to be fluid and never to entrap the user.
-     2. As the user submits their responses to the questions they are prompted to navigate to the next question by the 'Next' button.
-     3. On the results screen the user is prompted to restart the quiz by clicking on the 'Play Again' button.
+     2. The title 'Tree of Knowledge' is a hyperlink that takes the user back to the start screen from wherever they are in the game.
+     3. As the user submits their responses to the questions they are prompted to navigate to the next question by the 'Next' button.
+   
+  ![UX](/documentation/answer_screen.jpg)
+
+     4. On the results screen the user is prompted to restart the quiz by clicking on the 'Play Again' button.
+
+  ![UX](/documentation/results_screen.jpg)
 
   3. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
@@ -129,8 +135,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-     1. The social media links are displayed in the footer.
-     2. Whichever link they click, it will open up in a new tab to ensure the user can easily get back to the website.
+     1. The social media links are displayed in the footer. Whichever link they click, it will open up in a new tab to ensure the user can easily get back to the website.
+     2. The results page contains a hyperlink to the Woodland Trust website where users can learn more, this link opens in a new tab for a better user experience.
 
 - #### Frequent User Goals
 
@@ -141,9 +147,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   2. As a Frequent User, I want to check to see if there are any new social media posts.
 
      1. The user would already be comfortable with the website layout and can easily locate the social media links in the footer.
-
-  3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-     1. At the bottom of every page I would like to add a link to subscribe to the organisations newsletter, this would open in a new window.
+     2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+     3. At the bottom of every page I would like to add a link to subscribe to the organisations newsletter, this would open in a new window.
 
 ### Further Testing
 
@@ -152,7 +157,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - A large amount of testing was done to ensure that all pages were displaying correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Known Bugs & Fixes
+
+- Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
+- Results message remaining on screen after game restarted. I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend the showScore and resetState functions to achieve what I wanted.
+- Social Media icons in footer not centred. This problem has really stumped me, I have tried using CSS to center this unordered list
 
 ## Deployment
 
@@ -213,13 +222,18 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Freecoder Camp](https://www.freecodecamp.org/news/css-responsive-image-tutorial/#:~:text=To%20make%20an%20image%20responsive>,than%20absolute%20ones%20like%20pixels): Useful article on making sure images are responsive on all devices.
 
+- [Stack Overflow](https://stackoverflow.com/questions/25854496/how-to-set-min-height-for-bootstrap-container#:~:text=container%20class%20is%20defined%20in,the%20height%20of%20a%20container): This post helped me to understand why my leaf-image-container was changing size dependent on the size of the image it contained. I was able to add some CSS to fix the height of the image.
+
+-[Stack Overflow](https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list): I tried the methods outlined in this post to center my Social Media icons in the footer. I finally solved this by using Google dev tools to pinpoint the element within the list that needed altering. I could then use CSS to alter the margin-left width.
+
 - Tutor support was used to replace the question image with another image on my results page
+- Tutor support was used to help me resolve a problem whereby my score message was appearing at the end of the quiz but was not being removed when the quiz restarted
 
 ### Content
 
 - [Woodland Trust](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/): A really useful resource for setting my quiz questions and answers.
 
-- All content was written by the developer.
+- All other content was written by the developer.
 
 - Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 

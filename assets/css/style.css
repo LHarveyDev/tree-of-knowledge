@@ -124,7 +124,8 @@ footer {
 
 .social-networks {
     text-align: center;
-    margin: 0 auto;
+    list-style: none;
+    margin-right: 40px;
 }
 
 .social-networks li {
