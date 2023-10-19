@@ -94,6 +94,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](documentation/html_validation.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](documentation/css_validation.png)
+- [JSHint](https://jshint.com) - [Results](documentation/jshint.jpg)
 
 - Lighthouse Scores performed in Incognito mode.
 
