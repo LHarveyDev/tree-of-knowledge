@@ -4,7 +4,11 @@
 
 ![responsiveness](/documentation/am_i_responsive.jpg/)
 
-This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here](https://lharveydev.github.io/tree-of-knowledge/)
+This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here](https://lharveydev.github.io/tree-of-knowledge/).
+
+The intention of the Tree of Knowledge is as an educational tool with a broad appeal to both younger and older users. The layout is clean and text kept to a minimum. Users can complete the quiz in their own time and are shown whether their answer is correct or not as they go along giving them the opportunity to learn and improve on their score. The results page offers up an encouraging message alongside their score and points users towards learning resources for further study.
+
+There is ample opportunity to expand the website/app to include more quizzes, challenges and interactive puzzles related to wildlife and plants. I could see it being used in an educational setting and the content could be easily adapted to different age groups or levels of ability.
 
 ## User Experience (UX)
 
@@ -39,11 +43,12 @@ This is my website created for my Milestone Project 2 submission as part of my D
 
 - #### Imagery
 
-  - The images I have chosen for the quiz questions are simple, clear and syylized. They just display the individual leaf and are not cluttered by background.
+  - The images I have chosen for the quiz questions are simple, clear and stylized. They just display the individual leaf and are not cluttered by background.
   - The main image of the tree in silhouette came from [Adobe Stock](https://stock.adobe.com/uk/images/tree-with-roots/442695733?prev_url=detail) It is titled 'Tree with Roots' credit to the creator Chanthima Saenubon. I chose this image for its graphic illustrative qualities which I felt were striking. The image also complimented the wild, natural theme to my webpage.
 
 - ### Wireframes
 
+  - Mobile Wireframe - [View](documentation/mobile_version.jpg)
   - Question One Wireframe - [View](documentation/question1.jpg)
   - Question Two Wireframe - [View](documentation/question2.jpg)
   - Question Three Wireframe - [View](documentation/question3.jpg)
@@ -55,7 +60,7 @@ This is my website created for my Milestone Project 2 submission as part of my D
 
   - Responsive on all device sizes. Checked via user feedback and the websites [Media Genesis](https://responsivedesignchecker.com/) and [Am I Responsive](https://amiresponsive.co.uk/).
 
-  - Interactive elements. Created using Javascript.
+  - Interactive elements. Created using vanilla Javascript.
 
 ## Technologies Used
 
@@ -149,15 +154,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPad air, iPhone 8 & iPhoneX.
+- The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy, iPad air, iPhone 6/7/8 & iPhoneX.
 - A large amount of testing was done to ensure that all pages were displaying correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs & Fixes
 
 - Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
-- Results message remaining on screen after game restarted. I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend the showScore and resetState functions to achieve what I wanted.
-- Social Media icons in footer not centred. This problem has really stumped me, I have tried using CSS to center this unordered list
+- Results message remaining on screen after game restarted. I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
+- Social Media icons in footer not centred. I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
 
 ## Deployment
 
