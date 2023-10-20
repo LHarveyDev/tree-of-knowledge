@@ -95,8 +95,8 @@ There is ample opportunity to expand the website/app to include more quizzes, ch
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](documentation/html_validation.png)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](documentation/css_validation.png)
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](documentation/html_validation.jpg)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](documentation/css_validation.jpg)
 - [JSHint](https://jshint.com) - [Results](documentation/jshint.jpg)
 
 - Lighthouse Scores performed in Incognito mode.
@@ -225,7 +225,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Stack Overflow](https://stackoverflow.com/questions/25854496/how-to-set-min-height-for-bootstrap-container#:~:text=container%20class%20is%20defined%20in,the%20height%20of%20a%20container): This post helped me to understand why my leaf-image-container was changing size dependent on the size of the image it contained. I was able to add some CSS to fix the height of the image.
 
--[Stack Overflow](https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list): I tried the methods outlined in this post to center my Social Media icons in the footer. I finally solved this by using Google dev tools to pinpoint the element within the list that needed altering. I could then use CSS to alter the margin-left width.
+- [Stack Overflow](https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list): I tried the methods outlined in this post to center my Social Media icons in the footer. I finally solved this by using Google dev tools to pinpoint the element within the list that needed altering. I could then use CSS to alter the margin-left width.
 
 - Tutor support was used to replace the question image with another image on my results page
 - Tutor support was used to help me resolve a problem whereby my score message was appearing at the end of the quiz but was not being removed when the quiz restarted
@@ -240,7 +240,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- All Images were created by the developer.
+- The main image of the tree in silhouette came from [Adobe Stock](https://stock.adobe.com/uk/images/tree-with-roots/442695733?prev_url=detail) It is titled 'Tree with Roots' credit to the creator Chanthima Saenubon.
+- The quiz question images were sourced from various sites and were chosen for their ability to show the leaf in a clear way.
 
 ### Acknowledgements
 
