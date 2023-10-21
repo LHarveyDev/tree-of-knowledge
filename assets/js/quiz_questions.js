@@ -6,7 +6,7 @@ const questions = [
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Oak", correct: true },
-            { text: "Sycamore", correct: false },
+            { text: "Alder", correct: false },
             { text: "Pine", correct: false },
             { text: "Cedar", correct: false },
         ]
@@ -18,7 +18,7 @@ const questions = [
             { text: "Beech", correct: false },
             { text: "Sycamore", correct: true },
             { text: "Apple", correct: false },
-            { text: "Cedar", correct: false },
+            { text: "Blackthorn", correct: false },
         ]
     },
     {
@@ -28,24 +28,24 @@ const questions = [
             { text: "Norway Spruce", correct: false },
             { text: "Lime", correct: false },
             { text: "Elm", correct: true },
-            { text: "Ash", correct: false },
+            { text: "Larch", correct: false },
         ]
     },
     {
         image: "assets/images/beech.jpg", alt: "Oval leaf with pointed tip and wavy edge",
         question: "Which tree is this leaf from?",
         answers: [
-            { text: "Oak", correct: false },
+            { text: "Black Poplar", correct: false },
             { text: "Beech", correct: true },
             { text: "Hawthorn", correct: false },
-            { text: "Cedar", correct: false },
+            { text: "Field Maple", correct: false },
         ]
     },
     {
         image: "assets/images/ash.jpg", alt: "Pinnate oval leaf with jagged edge",
         question: "Which tree is this leaf from?",
         answers: [
-            { text: "Poplar", correct: false },
+            { text: "White Poplar", correct: false },
             { text: "Horse Chestnut", correct: false },
             { text: "Pear", correct: false },
             { text: "Ash", correct: true },
@@ -66,7 +66,7 @@ const questions = [
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Walnut", correct: true },
-            { text: "Horse Chestnut", correct: false },
+            { text: "Sweet Chestnut", correct: false },
             { text: "Monkey Puzzle", correct: false },
             { text: "Lime", correct: false },
         ]
@@ -96,7 +96,7 @@ const questions = [
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Rowan", correct: true },
-            { text: "Walnut", correct: false },
+            { text: "Juniper", correct: false },
             { text: "Cedar", correct: false },
             { text: "London Plane", correct: false },
         ]
