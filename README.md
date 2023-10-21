@@ -159,28 +159,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs & Fixes
 
 1. Favicon not displaying on deployed site
-
-- Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
+ Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
   
-1. Results message remaining on screen after game restarted.
-
-- I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
+2. Results message remaining on screen after game restarted.
+I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
   
-1. Social Media icons in footer not centred.
+3. Social Media icons in footer not centred.
+I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
 
-- I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
+4. Jumping behaviour
+Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
 
-1. Jumping behaviour
+5. Question image not centred vertically on larger screens.
+I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
 
-- Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
-
-1. Question image not centred vertically on larger screens.
-
-- I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
-
-1. Next button on restart retaining background color from results screen.
-
-- I added a line in my javascript code functionresetState which returns the 'Next' button background color to its original state.
+6. Next button on restart retaining background color from results screen.
+I added a line in my javascript code functionresetState which returns the 'Next' button background color to its original state.
 
 ## Deployment
 
@@ -248,6 +242,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp): This link helped me decide whether I needed a fixed or sticky footer.
   
 - Tutor support was used to replace the question image with another image on my results page
+
 - Tutor support was used to help me resolve a problem whereby my score message was appearing at the end of the quiz but was not being removed when the quiz restarted
 
 ### Content
