@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        image: "assets/images/oak.jpg", alt: "a long green leaf",
+        image: "assets/images/oak.jpg", alt: "Long with deep lobes and grows in bunches",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Oak", correct: true },
@@ -12,7 +12,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/sycamore.jpg", alt: "a long green leaf",
+        image: "assets/images/sycamore.jpg", alt: "Palmate five lobed leaf with red stalk",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Beech", correct: false },
@@ -22,7 +22,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/elm.jpg", alt: "a long green leaf",
+        image: "assets/images/elm.jpg", alt: "Oval toothed leaf with hairy surface",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Norway Spruce", correct: false },
@@ -32,7 +32,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/beech.jpg", alt: "a long green leaf",
+        image: "assets/images/beech.jpg", alt: "Oval leaf with pointed tip and wavy edge",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Oak", correct: false },
@@ -42,7 +42,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/ash.jpg", alt: "a long green leaf",
+        image: "assets/images/ash.jpg", alt: "Pinnate oval leaf with jagged edge",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Poplar", correct: false },
@@ -52,7 +52,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/hornbeam.jpg", alt: "a long green leaf",
+        image: "assets/images/hornbeam.jpg", alt: "Oval deeply furrowed leaf with pointed tip",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Willow", correct: false },
@@ -62,7 +62,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/walnut.jpg", alt: "a long green leaf",
+        image: "assets/images/walnut.jpg", alt: "Pinnate shiny oval pointed leaves",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Walnut", correct: true },
@@ -72,17 +72,17 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/willow.jpg", alt: "a long green leaf",
+        image: "assets/images/willow.jpg", alt: "Slender oval leaf with white hairs",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Rowan", correct: false },
             { text: "Douglas Fir", correct: false },
             { text: "Yew", correct: false },
-            { text: "Willow", correct: true },
+            { text: "White Willow", correct: true },
         ]
     },
     {
-        image: "assets/images/silverbirch.jpg", alt: "a long green leaf",
+        image: "assets/images/silverbirch.jpg", alt: "Light green triangular shaped leaf with toothed edge",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Hazel", correct: false },
@@ -92,7 +92,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/rowan.jpg", alt: "a long green leaf",
+        image: "assets/images/rowan.jpg", alt: "Pinnate dark green leaf with red berries",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Rowan", correct: true },
