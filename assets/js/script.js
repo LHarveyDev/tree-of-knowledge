@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
         score = 0;
         nextButton.innerHTML = "Next";
         scoreMessage.innerHTML = ""; // Clearing the previous score message
-        // Randomize the questions
-        shuffleArray(questions);
+
+        shuffleArray(questions);  // Randomize the questions
         showQuestion();
     }
 
@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let currentQuestion = questions[currentQuestionIndex];
         let questionNo = currentQuestionIndex + 1;
         imageElement.src = currentQuestion.image;
+        imageElement.alt = currentQuestion.alt;
         questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
         currentQuestion.answers.forEach(answer => {
             const button = document.createElement("button");

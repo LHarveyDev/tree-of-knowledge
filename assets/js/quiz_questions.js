@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        image: "assets/images/oak.jpg",
+        image: "assets/images/oak.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Oak", correct: true },
@@ -12,7 +12,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/sycamore.jpg",
+        image: "assets/images/sycamore.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Beech", correct: false },
@@ -22,7 +22,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/elm.jpg",
+        image: "assets/images/elm.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Norway Spruce", correct: false },
@@ -32,7 +32,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/beech.jpg",
+        image: "assets/images/beech.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Oak", correct: false },
@@ -42,7 +42,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/ash.jpg",
+        image: "assets/images/ash.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Poplar", correct: false },
@@ -52,7 +52,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/hornbeam.jpg",
+        image: "assets/images/hornbeam.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Willow", correct: false },
@@ -62,7 +62,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/walnut.jpg",
+        image: "assets/images/walnut.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Walnut", correct: true },
@@ -72,7 +72,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/willow.jpg",
+        image: "assets/images/willow.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Rowan", correct: false },
@@ -82,7 +82,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/silverbirch.jpg",
+        image: "assets/images/silverbirch.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Hazel", correct: false },
@@ -92,7 +92,7 @@ const questions = [
         ]
     },
     {
-        image: "assets/images/rowan.jpg",
+        image: "assets/images/rowan.jpg", alt: "a long green leaf",
         question: "Which tree is this leaf from?",
         answers: [
             { text: "Rowan", correct: true },
