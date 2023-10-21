@@ -116,12 +116,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
      1. The site has been designed to be fluid and never to entrap the user.
      2. The title 'Tree of Knowledge' is a hyperlink that takes the user back to the start screen from wherever they are in the game.
-     3. As the user submits their responses to the questions they are prompted to navigate to the next question by the 'Next' button.
-  ![UX](/documentation/answer_screen.jpg)
-     4. On the results screen the user is prompted to restart the quiz by clicking on the 'Play Again' button.
+     3. As the user submits their responses to the questions the colour of the buttons change to reflect whether the answer was correct ![UX](/documentation/correct_answer.jpg) or incorrect ![UX](/documentation/incorrect_answer.jpg) they are then prompted to navigate to the next question by the appearance of the 'Next' button.
+     4. On completion of the quiz the results screen appears with the users score and a positive message. The user is then prompted to restart the quiz by clicking on the 'Play Again' button.
   ![UX](/documentation/results_screen.jpg)
 
-  3. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
+  1. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
      1. The user can scroll to the bottom of the page to locate social media links in the footer.
 
