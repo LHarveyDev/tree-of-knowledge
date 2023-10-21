@@ -1,7 +1,5 @@
 # Tree of Knowledge
 
-[View the live project here.](https://lharveydev.github.io/tree-of-knowledge/)
-
 ![responsiveness](/documentation/am_i_responsive.jpg/)
 
 This is my website created for my Milestone Project 2 submission as part of my Diploma in Web Development run by Code Institute. The website is an interactive quiz which tests the users knowledge of native British trees and their leaves. The Tree of Knowledge site is currently live, the link can be found [here](https://lharveydev.github.io/tree-of-knowledge/).
@@ -39,7 +37,7 @@ There is ample opportunity to expand the website/app to include more quizzes, ch
 
 - #### Typography
 
-  - I have chosen google fonts 'AmaticSC' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to both younger users and adults.
+  - I have chosen google fonts 'AmaticSC' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to both younger users and adults. The font used om my answer buttons is 'Barlow' as I needed this to be clearly legible and stand out against the background colour.
 
 - #### Imagery
 
@@ -77,7 +75,7 @@ There is ample opportunity to expand the website/app to include more quizzes, ch
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-   - Google fonts were used to embed the fonts into the head of my index.html. I chose AmaticSC, Autour1 and Gabarito to use throughout the project.
+   - Google fonts were used to embed the fonts into the head of my index.html. I chose AmaticSC and Barlow to use throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 1. [I Love IMG:](https://www.iloveimg.com/resize-image)
@@ -160,11 +158,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs & Fixes
 
+1. Favicon not displaying on deployed site
+
 - Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
-- Results message remaining on screen after game restarted. I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
-- Social Media icons in footer not centred. I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
-- Jumping behaviour. Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed. 
-- Question image not centred vertically on larger screens. I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens. 
+  
+1. Results message remaining on screen after game restarted.
+
+- I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
+  
+1. Social Media icons in footer not centred.
+
+- I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
+
+1. Jumping behaviour
+
+- Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
+
+1. Question image not centred vertically on larger screens.
+
+- I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
+
+1. Next button on restart retaining background color from results screen.
+
+- I added a line in my javascript code functionresetState which returns the 'Next' button background color to its original state.
 
 ## Deployment
 

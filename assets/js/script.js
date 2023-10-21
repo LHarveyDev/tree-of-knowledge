@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function resetState() {
         nextButton.style.display = "none";
+        nextButton.style.background = "rgb(219, 218, 212";
         scoreMessage.innerHTML = '';  // Clear score message content
         scoreMessage.style.display = 'none'; // Hide the score message
 
