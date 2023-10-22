@@ -1,5 +1,4 @@
-/*  Quiz questions*/
-
+//  Quiz questions and answers array
 const questions = [
     {
         image: "assets/images/oak.jpg", alt: "Long with deep lobes and grows in bunches",

@@ -1,9 +1,7 @@
-/* Loading my DOM Content to ensure Javascript is executed after HTML */
-
+// Loading my DOM Content to ensure Javascript is executed after HTML 
 document.addEventListener("DOMContentLoaded", function () {
 
-    /* Defining my variables */
-
+    // Defining my variables
     const startButton = document.getElementById("start-btn");
     const startScreenSection = document.getElementById("start-screen");
     const playScreenSection = document.getElementById("play-screen");
@@ -18,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentQuestionIndex = 0;
     let score = 0;
 
-    // Function to start quiz  
-
+    // Function to start quiz
     function startQuiz() {
         currentQuestionIndex = 0;
         score = 0;
@@ -31,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to shuffle an array using the Fisher-Yates algorithm 
-
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -39,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // Function to display question 
     function showQuestion() {
         resetState();
         let currentQuestion = questions[currentQuestionIndex];
@@ -58,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Function to reset the quiz
     function resetState() {
         nextButton.style.display = "none";
         nextButton.style.background = "rgb(219, 218, 212";
@@ -69,6 +67,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+
+    /* Function to check selected answer (Based on YouTube tutorial https://www.youtube.com/watch?v=PBcqGxrr9g8 which explained how to change the colour of the answer buttons dependent on whether the selection was correct or incorrect)*/
     function selectAnswer(e) {
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nextButton.style.display = "block";
     }
 
+    // Function to display score and score message
     function showScore() {
         resetState();
         imageElement.src = "assets/images/tree_of_life.jpg";
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (score <= 7) {
             scoreMessage.innerHTML = "Well done! You're well on your way to becoming an expert.<br>Why not take a look at";
         } else {
-            scoreMessage.innerHTML = "Wow, you really know your stuff. You're a tree expert!<br>Why not take a look at";
+            scoreMessage.innerHTML = "Wow, you really know your stuff. You're already a tree expert!<br>Why not take a look at";
         }
         link.href = "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees";
         link.textContent = " The Woodland Trust website";
