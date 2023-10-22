@@ -21,7 +21,7 @@ a:hover {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #leaf-image-container {
@@ -92,8 +92,7 @@ p {
     font-weight: 800;
     width: 30%;
     border: 1px solid #222;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 5px;
     text-align: center;
     border-radius: 6px;
     cursor: pointer;
@@ -106,7 +105,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 40vh;
 }
 
 #leaf-image {
@@ -119,7 +118,6 @@ p {
 
 .footer {
     text-align: center;
-    padding-top: 15px;
     position: fixed;
     left: 0;
     bottom: 0;

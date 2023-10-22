@@ -119,7 +119,7 @@ I felt that my project was too small in scale to require automated tests to be d
 
   ![UX](/documentation/start_screen.jpg)
 
-  1. As a First Time Visitor, I want to be able to easily navigate throughout the site.
+  2. As a First Time Visitor, I want to be able to easily navigate throughout the site.
 
      1. The site has been designed to be fluid and never to entrap the user.
      2. The title 'Tree of Knowledge' is a hyperlink that takes the user back to the start screen from wherever they are in the game.
@@ -131,11 +131,11 @@ I felt that my project was too small in scale to require automated tests to be d
 
   ![UX](/documentation/incorrect_answer.jpg)
   
-    After selecting an answer they are then prompted to navigate to the next question by the appearance of the 'Next' button.
-     4. On completion of the quiz the results screen appears with the users score and a positive message. The user is then prompted to restart the quiz by clicking on the 'Play Again' button or directed towards further learning resources with a link to the Woodland Trust's guide to identifying trees.
+      4. After selecting an answer they are then prompted to navigate to the next question by the appearance of the 'Next' button.
+    On completion of the quiz the results screen appears with the users score and a positive message. The user is then prompted to restart the quiz by clicking on the 'Play Again' button or directed towards further learning resources with a link to the Woodland Trust's guide to identifying trees.
 
   ![UX](/documentation/results_screen.jpg)
-
+  
   1. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
      1. The user can scroll to the bottom of the page to locate social media links in the footer.
