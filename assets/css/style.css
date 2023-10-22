@@ -1,3 +1,5 @@
+/* Layout and Text */
+
 body {
     font-family: 'Amatic SC', sans-serif;
     background: white;
@@ -20,7 +22,7 @@ a:hover {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #leaf-image-container {
@@ -89,7 +91,6 @@ p {
     color: black;
     font-size: 24px;
     font-weight: 900;
-    width: 15%;
     border: 1px solid #222;
     padding: 5px;
     text-align: center;
@@ -140,21 +141,46 @@ p {
     color: grey;
 }
 
-/* Media query for screens above 992px */
-@media (min-width: 992px) {
-    #leaf-image {
-        margin-top: 25%;
+/* Media query for screens below 400px */
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 40px;
     }
 
+    p {
+        font-size: 20px;
+    }
+
+    #start-button {
+        width: 30%;
+    }
 }
 
-/* Media query for screens below 600px */
-@media (max-width: 600px) {
+/* Media query for screens below 992px */
+@media (max-width: 992px) {
+
     h1 {
         font-size: 60px;
     }
 
     p {
         font-size: 20px;
+    }
+
+    #start-button {
+        width: 30%;
+    }
+}
+
+/* Media query for screens above 992px */
+@media (min-width: 992px) {
+
+    #leaf-image {
+        margin-top: 15%;
+    }
+
+    #start-btn {
+        width: 15%;
     }
 }
