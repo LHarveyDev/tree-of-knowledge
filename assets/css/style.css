@@ -2,12 +2,11 @@ body {
     font-family: 'Amatic SC', sans-serif;
     background: white;
     margin: 0 auto;
-    max-width: 700px;
     text-align: center;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 a {
@@ -21,7 +20,7 @@ a:hover {
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #leaf-image-container {
@@ -88,9 +87,9 @@ p {
     font-family: 'Amatic SC', sans-serif;
     background: #D5AC4E;
     color: black;
-    font-size: larger;
-    font-weight: 800;
-    width: 30%;
+    font-size: 24px;
+    font-weight: 900;
+    width: 15%;
     border: 1px solid #222;
     padding: 5px;
     text-align: center;
@@ -105,11 +104,11 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40vh;
+    height: 35vh;
 }
 
 #leaf-image {
-    width: 100%;
+    max-width: 100%;
     height: 150px;
     object-fit: contain;
 }
@@ -141,21 +140,21 @@ p {
     color: grey;
 }
 
-/* Media query for screens above 991px */
+/* Media query for screens above 992px */
 @media (min-width: 992px) {
-
     #leaf-image {
         margin-top: 25%;
     }
+
 }
 
-/* Media query for screens below 372px */
-@media (max-width: 372px) {
+/* Media query for screens below 600px */
+@media (max-width: 600px) {
     h1 {
-        font-size: 25px;
+        font-size: 60px;
     }
 
     p {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
