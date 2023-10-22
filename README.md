@@ -155,8 +155,6 @@ I felt that my project was too small in scale to require automated tests to be d
   2. As a Frequent User, I want to check to see if there are any new social media posts.
 
      1. The user would already be comfortable with the website layout and can easily locate the social media links in the footer.
-     2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-     3. At the bottom of every page I would like to add a link to subscribe to the organisations newsletter, this would open in a new window.
 
 ### Further Testing
 
@@ -183,7 +181,7 @@ Initially when an answer button was selected the 'Next' button would then appear
 I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
 
 6. Next button on restart retaining background color from results screen.
-I added a line in my javascript code functionresetState which returns the 'Next' button background color to its original state.
+I added a line in my javascript code function resetState which returns the 'Next' button background color to its original state.
 
 ## Deployment
 
@@ -265,7 +263,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 - The main image of the tree in silhouette came from [Adobe Stock](https://stock.adobe.com/uk/images/tree-with-roots/442695733?prev_url=detail) It is titled 'Tree with Roots' credit to the creator Chanthima Saenubon.
-- The quiz question images were sourced from various sites and were chosen for their ability to show the leaf in a clear way.
+- The quiz question images were sourced from various sites and were chosen for their ability to show the leaf in a clear way. They are used under the Creative Commons license for educational purposes only.
 
 ### Acknowledgements
 
