@@ -239,7 +239,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Coding Ninjas](https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code): I used this tutorial to help me work out what functions i needed to create to run my quiz.
 
-- [YouTube GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video tutorial explained the functions needed for a simple multiple choice quiz and also taught me hot to change the colours of the correct/incorrect answers when selected.
+- [YouTube GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8): This video tutorial explained the functions needed for a simple multiple choice quiz and also taught me how to change the colours of the correct/incorrect answers when selected.
 
 - [Stack Overflow](https://stackoverflow.com/questions/64563792/how-to-have-images-in-a-javascript-quiz): This helped me to work out how to design a quiz where the question is an image.
 
