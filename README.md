@@ -170,29 +170,23 @@ I felt that my project was too small in scale to require automated tests to be d
 
 ### Known Bugs & Fixes
 
-1. Favicon not displaying on deployed site
-
-- Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
+- Favicon not displaying on deployed site
+  - Initially I could only get my favicon to display in my workspace and not on my deployed site. After some investigation I realised that the filepath contained a forward slash which when removed allowed the icon to be displayed.
   
-1. Results message remaining on screen after game restarted.
-
-- I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
+- Results message remaining on screen after game restarted.
+  - I contacted tutor support in relation to this issue. I had tried to alter my resetState, showScore and showQuestion functions in various ways. Initially I changed the display style to 'none' but this prevented the message from displaying at all, I then tried appending and removing the div containing the message but this prevented the game working as it should. Tutor support helped me understand that I needed to amend both the showScore and resetState functions to achieve what I wanted.
   
-1. Social Media icons in footer not centred.
+- Social Media icons in footer not centred.
+  - I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
 
-- I tried to center-align the unordered list horizontally using Bootstrap and CSS. I eventually achieved the look I wanted by adding a margin-right in CSS.
+- Jumping behaviour
+  - Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
 
-1. Jumping behaviour
+- Question image not centred vertically on larger screens.
+  - I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
 
-- Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
-
-1. Question image not centred vertically on larger screens.
-
-- I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
-
-1. Next button on restart retaining background color from results screen.
-
-- I added a line in my javascript code function resetState which returns the 'Next' button background color to its original state.
+- Next button on restart retaining background color from results screen.
+  - I added a line in my javascript code function resetState which returns the 'Next' button background color to its original state.
 
 ## Deployment
 
