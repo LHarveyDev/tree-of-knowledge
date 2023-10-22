@@ -37,7 +37,7 @@ There is ample opportunity to expand the website/app to include more quizzes, ch
 
 - #### Typography
 
-  - I have chosen google fonts 'AmaticSC' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to both younger users and adults. The font used om my answer buttons is 'Barlow' as I needed this to be clearly legible and stand out against the background colour.
+  - I have chosen google fonts 'AmaticSC' font for my title and headings. It has an organic style which reflects the theme of the page and appeals to both younger users and adults. The font used for my answer buttons is 'Barlow' as I needed this to be clearly legible and stand out against the background colour.
 
 - #### Imagery
 
@@ -183,7 +183,7 @@ I felt that my project was too small in scale to require automated tests to be d
   - Initially when an answer button was selected the 'Next' button would then appear which caused the social media links to jump down and be pushed off screen on mobile devices, when the next question loaded and the 'Next' button was hidden the social media links reappeared. This was visually distracting to the user so I made the footer containing the social media links fixed.
 
 - Question image not centred vertically on larger screens.
-  - I added a media query for screens above 991px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
+  - I added a media query for screens above 992px which adds a margin-top in CSS to drop the image down slightly so it is more centrally aligned when viewed on larger screens.
 
 - Next button on restart retaining background color from results screen.
   - I added a line in my javascript code function resetState which returns the 'Next' button background color to its original state.
