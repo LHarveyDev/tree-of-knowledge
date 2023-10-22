@@ -116,7 +116,6 @@ I felt that my project was too small in scale to require automated tests to be d
      1. Upon entering the site, the user is presented with a clean, uncluttered page. The title and main image are displayed above a set of instructions on how to play the game.
      2. The purpose of the quiz and 'how to' guide are kept concise to avoid users having to scroll through a complicated set of instructions.
      3. The user can play the game or explore the social media links at the footer of the page.
-
   ![UX](/documentation/start_screen.jpg)
 
   2. As a First Time Visitor, I want to be able to easily navigate throughout the site.
@@ -124,19 +123,14 @@ I felt that my project was too small in scale to require automated tests to be d
      1. The site has been designed to be fluid and never to entrap the user.
      2. The title 'Tree of Knowledge' is a hyperlink that takes the user back to the start screen from wherever they are in the game.
      3. As the user submits their responses to the questions the colour of the buttons change to reflect whether the answer was correct or incorrect. If the answer selected is correct the button turns to green indicating that the user got this right.
-
   ![UX](/documentation/correct_answer.jpg)
-
     If the answer selected is incorrect the button changes to red and the correct answer is highlighted in green. This performs the function of educating the user as they progress through the quiz and giving them an opportunity to improve their score when the quiz restarts.
-
   ![UX](/documentation/incorrect_answer.jpg)
-  
-      4. After selecting an answer they are then prompted to navigate to the next question by the appearance of the 'Next' button.
+    After selecting an answer they are then prompted to navigate to the next question by the appearance of the 'Next' button.
     On completion of the quiz the results screen appears with the users score and a positive message. The user is then prompted to restart the quiz by clicking on the 'Play Again' button or directed towards further learning resources with a link to the Woodland Trust's guide to identifying trees.
-
   ![UX](/documentation/results_screen.jpg)
   
-  1. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
+  3. As a First Time Visitor, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
      1. The user can scroll to the bottom of the page to locate social media links in the footer.
 
