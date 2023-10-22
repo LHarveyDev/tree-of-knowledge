@@ -148,3 +148,14 @@ p {
         margin-top: 25%;
     }
 }
+
+/* Media query for screens below 372px */
+@media (max-width: 372px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
